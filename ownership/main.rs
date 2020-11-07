@@ -1,10 +1,8 @@
 fn main() {
-    {
 
-        let s = String::from("hello");
-    }
+    let x = 5;
+    let y = x;
 
-    // s.push_str(", world!");
+    println!("x = {}, y = {}", x, y);
 
-    println!("{}", s);
 }
